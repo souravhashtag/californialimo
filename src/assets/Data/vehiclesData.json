@@ -1,0 +1,131 @@
+{
+    "vehicles": [
+      {
+        "id": "sprinters",
+        "title": "Executive Sprinters",
+        "content": [
+          {
+            "image": "../assets/images/tab-dishes03.png",
+            "title": "MERCEDES SPRINTER",
+            "description": "Indulge in opulent travel with the Mercedes Benz Executive Sprinter Van, featuring lavish leather seating that delivers the luxury your clients deserve. Accommodating up to 13 passengers, this vehicle boasts an impressive interior standing height of up to 6 ft. 4 in. Additionally, it offers a dedicated rear luggage compartment, catering to all your transportation requirements. The executive passenger van has a refrigerated ice chest and a premium surround sound system for an unparalleled journey.",
+            "passengers": "14 Passengers"
+          }
+        ]
+      },
+      {
+        "id": "coaches",
+        "title": "Mini Coaches",
+        "content": [
+          {
+            "image": "../assets/images/fleet-14.jpg",
+            "title": "41 Passenger Mini Coach",
+            "description": "A unified solution for group transportation. It has a capacity of 41 passengers with back luggage, a panoramic front viewing window, a DVD player, quality rear audio, and many more luxury features. Large quality vehicles to meet all of your group transportation needs. The latest technologies and finest amenities are available.",
+            "passengers": "41 Passengers"
+          },
+          {
+            "image": "../assets/images/fleet-13.jpg",
+            "title": "37 Passenger Mini Coach",
+            "description": "The Ford Freightliner executive micro coach is fully equipped with superior triple-stitched leather upholstery seating in 2-by-2 rows. Each row has 110V/USB outlets. This vehicle's windows have manual shaders connected for complete privacy. When you hire Freightliner as your limo service, you can easily rely on its efficiency, safety, and capacity to accommodate large parties.",
+            "passengers": "37 Passengers"
+          },
+          {
+            "image": "../assets/images/tab-dishes04.png",
+            "title": "F 550 MINI COACH",
+            "description": "The Ford F-550 executive mini coach is configured with premium leather seating. Each row of seating is equipped with 110V/USB outlets. This vehicle includes two tables with captain chair seating. It’s large sized rear luggage room compartment can hold all your extra luggage. With premium audio and a 48″ LCD TV screen this vehicle is designed for the perfect luxurious ride.",
+            "passengers": "27 Passengers"
+          },
+          {
+            "image": "../assets/images/tab-dishes06.png",
+            "title": "E-450 MINI COACH",
+            "description": "The Ford E-450 executive mini coach is fully loaded with premium triple-stitched leather upholstery seating in 2-by-2 rows. Each row contains 110V/USB outlets. Each window on this vehicle has attached manual shaders for a full private transportation. With 6 built-in LCD monitor screens and a premium audio system, this vehicle is set to provide a luxurious, entertaining ride. The additional rear storage cabinet proves helpful in all your",
+            "passengers": "23 Passengers"
+          }
+        ]
+      },
+      {
+        "id": "limo",
+        "title": "Limo Coaches",
+        "content": [
+          {
+            "image": "../assets/images/tab-dishes05.png",
+            "title": "Party Buses",
+            "description": "With its spacious and vibrant interior, the party bus offers ample room for dancing, socializing, and having a blast with your friends. Equipped with entertainment systems, disco lighting, and even a mini-bar, the party bus sets the stage for an exciting party experience, whether a birthday celebration, bachelorette party, or a night out.",
+            "passengers": "19 Passengers"
+          }
+        ]
+      },
+      {
+        "id": "suv",
+        "title": "Executive SUVs",
+        "content": [
+          {
+            "image": "../assets/images/fleet-10.jpg",
+            "title": "Chevrolet Suburban",
+            "description": "The Chevrolet Suburban boasts a sleek and sophisticated design and is renowned for its powerful performance and spacious interior. As a luxury SUV, it provides a perfect balance of comfort, versatility, and cutting-edge features, making it an ideal choice for executive transportation or family travel.",
+            "passengers": "6 Passengers"
+          },
+            {
+            "image": "../assets/images/fleet-09.jpg",
+            "title": "Ford Expedition",
+            "description": "Ford Expedition has a swagger and an imposing presence on the road, thanks to its power, style, and capacity for people and goods. It boasts the most legroom in its class. Add an available premium Bang and Olufsen B&O sound system, heated and ventilated seating, and lots of electronics to keep you confident and connected on the road.",
+            "passengers": "6 Passengers"
+          },
+          {
+            "image": "../assets/images/fleet-05.jpg",
+            "title": "Lincoln Navigator",
+            "description": "With its commanding presence and elegant design, the Navigator is an ideal choice for weddings, providing a grand entrance for the bride and groom. Its spacious and opulent interior ensures a comfortable and memorable ride, making it perfect for anniversary celebrations, milestone birthdays, and other significant events.",
+            "passengers": "6 Passengers"
+          },
+          {
+            "image": "../assets/images/fleet-07.jpg",
+            "title": "Cadillac Escalade",
+            "description": "Our fleet of top-of-the-line SUVs is meticulously chosen to provide both luxury and practicality for discerning executives. Whether it's a business meeting, airport transfer, or a city tour, our Executive SUVs combine spacious interiors with advanced technology to ensure a comfortable and productive journey. Driven by professional chauffeurs, these vehicles are designed to make a statement, offering the perfect blend of style, comfort, and functionality for the modern executive on the move.",
+            "passengers": "6 Passengers"
+          }
+        ]
+      },
+      {
+        "id": "sedan",
+        "title": "Executive Sedan",
+        "content": [
+            {
+                "image": "../assets/images/fleet-06.jpg",
+                "title": "Cadillac XT6",
+                "description": "The XT6, as a midsize sedan, offers a spacious and opulent cabin, ensuring a first-class experience for all passengers. With three rows of seating, it can accommodate large groups, making it an ideal choice for corporate events, airport transfers, weddings, and more. Passengers can enjoy a luxurious, entertaining ride equipped with advanced amenities and infotainment systems.",
+                "passengers": "2 Passengers"
+              },
+              {
+                "image": "../assets/images/fleet-04.jpg",
+                "title": "Cadillac LYRIQ",
+                "description": "The XT6, as a midsize sedan, offers a spacious and opulent cabin, ensuring a first-class experience for all passengers. With three rows of seating, it can accommodate large groups, making it an ideal choice for corporate events, airport transfers, weddings, and more. Passengers can enjoy a luxurious, entertaining ride equipped with advanced amenities and infotainment systems.",
+                "passengers": "2 Passengers"
+              },
+              {
+                "image": "../assets/images/fleet-03.jpg",
+                "title": "Volvo S90",
+                "description": "Hiring the Volvo S90 as your limousine service offers a unique combination of luxury, safety, and environmental consciousness. The S90 is renowned for its Scandinavian-inspired design, showcasing elegance and sophistication that will impress your guests and elevate any event. Additionally, the Volvo S90 is an environmentally friendly choice for a limousine service.",
+                "passengers": "2 Passengers"
+              },
+              {
+                "image": "../assets/images/fleet-05.jpg",
+                "title": "Lincoln Aviator",
+                "description": "This premium midsize executive sedans offers a striking and sophisticated exterior design that leaves a lasting impression on your guests. Inside the spacious and opulent cabin, the Aviator provides top-notch comfort and advanced amenities, ensuring a first-class experience for all passengers. With its powerful engine options, the Aviator delivers a smooth and refined ride, making every journey delightful.",
+                "passengers": "2 Passengers"
+              },
+              {
+                "image": "../assets/images/fleet-02.jpg",
+                "title": "BMW 740I",
+                "description": "The BMW 740i, a premium luxury sedan, offers top-notch comfort, opulent interiors, and advanced amenities that elevate any occasion to a memorable and prestigious event. Choosing the BMW 740i as your limousine transport allows you and your guests to travel in style, making any special event, whether a wedding, corporate event or a night out, an unforgettable and extraordinary affair.",
+                "passengers": "2 Passengers"
+              },
+          {
+            "image": "../assets/images/fleet-01.jpg",
+            "title": "Mercedes S Class",
+            "description": "With plush leather interiors, advanced technology, and professional chauffeurs, our sedans ensure a smooth and enjoyable journey. Choose our sedan service for a seamless blend of luxury and practicality, making every trip a statement of sophistication and convenience. Travel in style and arrive in comfort – that's the promise of our Sedan service.",
+            "passengers": "2 Passengers"
+          }
+        ]
+      }
+    ]
+  }
+  

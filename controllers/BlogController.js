@@ -32,6 +32,7 @@ class BlogController {
         metadescription,
         canonical,
         metakeyword,
+        bannerurl,
         category
        } = req.body;
       const bannerimage = req.file ? req.file.filename : null;
@@ -47,6 +48,7 @@ class BlogController {
         canonical,
         metakeyword,
         category,
+        bannerurl,
         banner:bannerimage,
         author: req.user.id,
       });
@@ -84,6 +86,7 @@ class BlogController {
         metadescription,
         canonical,
         metakeyword,
+        bannerurl,
         category
       } = req.body;
   
@@ -102,6 +105,7 @@ class BlogController {
         canonical,
         metakeyword,
         category,
+        bannerurl,
         author: req.user.id,
       };
   

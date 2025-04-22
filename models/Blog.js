@@ -12,6 +12,7 @@ const BlogSchema = new mongoose.Schema({
   canonical: { type: String, required: true },
   metakeyword: { type: String },
   category: { type: String, required: true },
+  bannerurl: { type: String, default: "" },
   banner: { type: String },
   author: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true },
 },{

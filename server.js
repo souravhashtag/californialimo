@@ -9,10 +9,11 @@ const authRoutes = require("./routes/auth");
 const blogRoutes = require("./routes/blog");
 const galleryRoutes = require("./routes/gallery");
 const pageRoutes = require("./routes/page");
-const seoRoutes = require("./routes/seo"); 
-const faqRoutes = require("./routes/faq"); 
+const seoRoutes = require("./routes/seo");
+const faqRoutes = require("./routes/faq");
 
 const pagefrontRoutes = require("./routes/front/page");
+const companyDataRoutes = require("./routes/front/company");
 const blogfrontRoutes = require("./routes/front/blog");
 const faqfrontRoutes = require("./routes/front/faq");
 const app = express();
@@ -29,9 +30,10 @@ app.use("/api/seo", seoRoutes);
 app.use("/api/faq", faqRoutes);
 
 
-app.use("/api/front",authfrontmiddleware.verifyToken , pagefrontRoutes);
-app.use("/api/front/blog",authfrontmiddleware.verifyToken , blogfrontRoutes);
-app.use("/api/front/faq",authfrontmiddleware.verifyToken , faqfrontRoutes);
+app.use("/api/front", authfrontmiddleware.verifyToken, pagefrontRoutes);
+app.use("/api/front/company", authfrontmiddleware.verifyToken, companyDataRoutes);
+app.use("/api/front/blog", authfrontmiddleware.verifyToken, blogfrontRoutes);
+app.use("/api/front/faq", authfrontmiddleware.verifyToken, faqfrontRoutes);
 
 const PORT = process.env.PORT || 5000;
 mongoose

@@ -5,7 +5,8 @@ const upload = require("../config/multer-multiple");
 const router = express.Router();
 
 // Blog Routes
-//router.post("/add", BlogController.verifyToken,upload.array("images",10), GalleryController.create);
+// router.post("/add", BlogController.verifyToken,upload.array("images",10), GalleryController.create);
+// router.post("/create", BlogController.verifyToken, PageController.createPage);
 router.get("/list", BlogController.verifyToken, PageController.list);
 router.get("/:pageslug", BlogController.verifyToken, PageController.getPageDetails);
 router.post("/:pageslug", BlogController.verifyToken, PageController.updatePageDetails);

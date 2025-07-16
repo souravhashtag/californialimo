@@ -63,7 +63,7 @@ class BlogController {
   // List all blogs
   static list = async (req, res) => {
     try {
-      const blogs = await Blog.find().populate("author", "username email");
+      const blogs = await Blog.find().populate("author", "username email").sort({blogDate:-1});
       res.status(200).json(blogs);
     } catch (err) {
       res.status(500).json({ error: err.message });
